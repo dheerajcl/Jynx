@@ -7,7 +7,7 @@ import {
 import { TRPCError } from '@trpc/server'
 import { db } from '@/db'
 import { z } from 'zod'
-import { INFINITE_QUERY_LIMIT } from '@/config/infinite-query'
+import { INFINITE_QUERY_LIMIT } from './config/infinite-query'
 import { absoluteUrl } from '@/lib/utils'
 import {
   getUserSubscriptionPlan,
