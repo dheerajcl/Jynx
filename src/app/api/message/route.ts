@@ -45,9 +45,9 @@ export const POST = async (req: NextRequest) => {
   })
 
   // 1: vectorize message
-  const embeddings = new CohereEmbeddings({
-    apiKey: process.env.COHERE_API_KEY,
-  });
+  const embeddings = new OpenAIEmbeddings({
+    openAIApiKey: process.env.OPENAI_API_KEY,
+  })
 
   const pinecone = await getPineconeClient()
   const pineconeIndex = pinecone.Index('quill')

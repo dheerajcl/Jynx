@@ -1,4 +1,4 @@
-import Dashboard from '../components/Dashboard'
+import Dashboard from '@/components/Dashboard'
 import { db } from '@/db'
 import { getUserSubscriptionPlan } from '@/lib/stripe'
 import { getKindeServerSession } from '@kinde-oss/kinde-auth-nextjs/server'
