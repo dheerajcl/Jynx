@@ -1,3 +1,3 @@
 # Ignite
 
-# Refer to [Ignite2.0](https://github.com/dheerajcl/Ignite2.0) for complete project, current one is partial one
+# Please check out [Ignite2.0](https://github.com/dheerajcl/Ignite2.0) for the complete project. The current version is only partial.
