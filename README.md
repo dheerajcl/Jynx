@@ -1,2 +1,3 @@
-# Ignite-Document-Assistant
- Ignite is an AI-powered system that lets you chat with documents and get answers to your questions.
+# Ignite
+
+##Refer to Ignite2.0 for complete project, current one is partial one
